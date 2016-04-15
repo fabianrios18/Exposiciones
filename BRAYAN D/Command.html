@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Etiqueta Command</title>
+</head>
+<body>
+<menu type="toolbar">
+
+<Command type ="radio" radiogroup="alignment" checked="
+checked" label="sena" onclick="setAling('Hola Adsi')"><button>Mostrar Mensaje</button>
+</Command>
+<br>
+<Command type ="radio" radiogroup="alignment" checked="
+checked" label="Correo" onclick="setAlign('1020185')"><label>Mostrar  Este Mensaje</label>
+</Command>
+
+</menu>	
+<script type="text/javascript">
+	function setAlign (texto){
+		alert("Parametro enviado"+texto);
+
+	}
+
+</script>
+</body>
+</html>
